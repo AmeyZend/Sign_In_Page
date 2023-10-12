@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@800&display=swap');
+
+section{
+    height: 100vh;
+    width: 50%px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main1{
+    width: 500px;
+    height: 80vh;
+    border-radius: 50px;
+    background-color: #fff;
+	border-radius: 10px;
+    display: flex;
+} 
+.first{
+    width:250px;
+    height: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px black;
+}
+
+.first h3{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+div.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.first input{
+    background-color: rgb(210, 205, 205);
+    font-size: 10px;
+    padding: 5px;
+    border: 0px;
+}
+
+.first h4{
+    text-align: center;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.first button{
+    border-radius: 20px;
+	border: 1px solid palevioletred;
+	background-color: palevioletred;
+	color: white;
+	font-size: 12px;
+	font-weight: lighter;
+	padding: 12px 45px;
+    text-transform: uppercase;
+
+}
+.second{
+    height: 400px;
+    width: 250px;
+    background-color: palevioletred;
+    text-align: center;
+    border-radius: 10px;
+    border-left: none;  
+    box-shadow: 0px 5px 8px black;
+}
+.second h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.second h5{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.second button{
+    border-radius: 20px;
+	border: 1px solid white;
+	background-color: palevioletred;
+	color: white;
+	font-size: 12px;
+	font-weight: lighter;
+	padding: 12px 45px;
+    
+}
+
+
+@media screen and (max-width:250px) {
+    .main1{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .second{
+        width: 345px;
+        height: 671px;
+    }
+    .first{
+        width: 345px;
+        height: 671px;
+    }
+    
+} 
+
+@media (min-width:251px) and (max-width:400px) {
+    .main1{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .second{
+        width: auto;
+        height: 671px;
+    }
+    .first{
+        width: auto;
+        height: 671px;
+    }
+
+    
+}
